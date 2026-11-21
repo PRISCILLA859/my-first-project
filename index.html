@@ -1,17 +1,321 @@
-
 <!DOCTYPE html>
-<html>
+
+<html lang="en">
+
 <head>
-    <title>My First Website</title>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Priscilla | My Digital Portfolio</title>
+
+    <style>
+
+        * {
+
+            margin: 0;
+
+            padding: 0;
+
+            box-sizing: border-box;
+
+        }
+
+        body {
+
+            font-family: Arial, sans-serif;
+
+            background: #f8f7f4;
+
+            color: #252525;
+
+            line-height: 1.6;
+
+        }
+
+        header {
+
+            background: #153d30;
+
+            color: white;
+
+            padding: 25px 8%;
+
+        }
+
+        nav {
+
+            display: flex;
+
+            justify-content: space-between;
+
+            align-items: center;
+
+            flex-wrap: wrap;
+
+        }
+
+        nav h2 {
+
+            color: #d9c49a;
+
+        }
+
+        nav a {
+
+            color: white;
+
+            text-decoration: none;
+
+            margin-left: 20px;
+
+        }
+
+        .hero {
+
+            text-align: center;
+
+            padding: 100px 20px;
+
+            background: #e9eee9;
+
+        }
+
+        .hero h1 {
+
+            font-size: 45px;
+
+            color: #153d30;
+
+            margin-bottom: 15px;
+
+        }
+
+        .hero p {
+
+            font-size: 18px;
+
+            max-width: 600px;
+
+            margin: auto;
+
+        }
+
+        .hero button {
+
+            margin-top: 25px;
+
+            padding: 13px 28px;
+
+            background: #153d30;
+
+            color: white;
+
+            border: none;
+
+            border-radius: 5px;
+
+            cursor: pointer;
+
+        }
+
+        section {
+
+            padding: 65px 8%;
+
+            text-align: center;
+
+        }
+
+        h2 {
+
+            color: #153d30;
+
+            margin-bottom: 25px;
+
+        }
+
+        .skills {
+
+            display: grid;
+
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+
+            gap: 20px;
+
+        }
+
+        .skill-card {
+
+            background: white;
+
+            padding: 30px;
+
+            border-radius: 10px;
+
+            box-shadow: 0 3px 12px #00000010;
+
+        }
+
+        .skill-card h3 {
+
+            color: #153d30;
+
+        }
+
+        footer {
+
+            background: #153d30;
+
+            color: white;
+
+            text-align: center;
+
+            padding: 25px;
+
+        }
+
+        @media (max-width: 600px) {
+
+            .hero h1 {
+
+                font-size: 32px;
+
+            }
+
+            nav {
+
+                gap: 15px;
+
+            }
+
+        }
+
+    </style>
+
 </head>
+
 <body>
-    <h1>Welcome to My Website!</h1>
-    <p>Hello! I am learning how to build websites.</p>
-    <h2>My Skills</h2>
-    <ul>
-        <li>Website Design</li>
-        <li>AI Automation</li>
-        <li>Digital Creativity</li>
-    </ul>
+
+<header>
+
+    <nav>
+
+        <h2>PRISCILLA.</h2>
+
+        <div>
+
+            <a href="#about">About</a>
+
+            <a href="#skills">Skills</a>
+
+            <a href="#contact">Contact</a>
+
+        </div>
+
+    </nav>
+
+</header>
+
+<div class="hero">
+
+    <h1>Hello, I'm Priscilla!</h1>
+
+    <p>
+
+        Welcome to my digital space.
+
+        I'm passionate about technology, website design,
+
+        AI automation and digital creativity.
+
+    </p>
+
+    <button onclick="document.getElementById('about').scrollIntoView({behavior:'smooth'})">
+
+        Explore My Journey
+
+    </button>
+
+</div>
+
+<section id="about">
+
+    <h2>About Me</h2>
+
+    <p>
+
+        I'm an aspiring web developer and digital creator
+
+        exploring the world of technology.
+
+        I'm passionate about learning new skills,
+
+        solving problems and creating digital experiences.
+
+    </p>
+
+</section>
+
+<section id="skills">
+
+    <h2>My Skills & Interests</h2>
+
+    <div class="skills">
+
+        <div class="skill-card">
+
+            <h3>Website Design</h3>
+
+            <p>Learning to create beautiful and responsive websites.</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>AI Automation</h3>
+
+            <p>Exploring AI tools and smart digital workflows.</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>Digital Creativity</h3>
+
+            <p>Turning creative ideas into digital experiences.</p>
+
+        </div>
+
+        <div class="skill-card">
+
+            <h3>Social Media</h3>
+
+            <p>Creating content and building digital communities.</p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact">
+
+    <h2>Let's Connect</h2>
+
+    <p>Thank you for visiting my portfolio!</p>
+
+    <p>GitHub: github.com/priscilla859</p>
+
+</section>
+
+<footer>
+
+    <p>© 2026 Priscilla. All Rights Reserved.</p>
+
+</footer>
+
 </body>
+
 </html>
