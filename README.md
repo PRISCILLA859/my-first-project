@@ -1,5 +1,5 @@
 # My First GitHub Project
-Hello! My name is a beginner learning how to build websites, AI tools, and digital products.
+Hello! My name is PRISCILLA, a beginner learning how to build websites, AI tools, and digital products.
 ## My Goals
 - Learn GitHub
 - Learn HTML and CSS
